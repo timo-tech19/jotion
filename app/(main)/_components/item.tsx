@@ -33,7 +33,7 @@ interface ItemProps {
 	isSearch?: boolean;
 	level?: number;
 	label: string;
-	onClick: () => void;
+	onClick?: () => void;
 	onExpand?: () => void;
 	icon: LucideIcon;
 }
